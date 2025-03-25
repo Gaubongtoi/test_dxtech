@@ -60,7 +60,7 @@ function TestimonialSlider() {
             <Slider {...settings}>
                 {testimonials.map((testimonial) => (
                     <div key={testimonial.id}>
-                        <div className="relative max-w-2xl mx-auto p-9  bg-gray-900 border border-lime-400 rounded-lg text-white">
+                        <div className="relative max-w-2xl mx-auto p-9  bg-gray-900 border border-primary_green rounded-[45px] text-white">
                             <p className="text-lg">
                                 "We have been working with Positivus for the past year and have seen a significant
                                 increase in website traffic and leads as a result of their efforts. The team is
@@ -72,7 +72,7 @@ function TestimonialSlider() {
                             <div className="absolute left-1/2 -bottom-4 -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-l-transparent border-r-transparent border-t-8 border-lime-400"></div>
 
                             <div className="mt-6 text-center">
-                                <p className="text-lime-400 font-bold">{testimonial.author}</p>
+                                <p className="text-primary_green font-bold">{testimonial.author}</p>
                                 <p className="text-gray-400 text-sm">{testimonial.role}</p>
                             </div>
                         </div>
